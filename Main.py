@@ -147,7 +147,6 @@ if st.session_state.page == "home":
         Obesity_df = pd.concat(
             [dataframes["Obesity_adults"], dataframes["Obesity_children"]],
             ignore_index=True)
-        
         Malnutrition_df = pd.concat(
             [dataframes["Malnutrition_adults"], dataframes["Malnutrition_children"]],
             ignore_index=True)
@@ -1162,7 +1161,7 @@ elif st.session_state.page == "Combined Analysis":
         [
             "— Select Topic —",
             "Obesity vs malnutrition by country",
-            "Gender-based disparity",""
+            "Gender-based disparity",
             "Region-wise avg estimates",
             "obesity up & malnutrition down",
             "Age-wise trend analysis"
