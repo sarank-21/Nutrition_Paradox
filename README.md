@@ -123,26 +123,32 @@ The dashboard contains three main sections:
 * Clean UI with interactive plots
 
 ### ⚙️ Setup & Installation
-1️⃣ Clone the Repository
+
+**1️⃣ Clone the Repository**
 ```
 git clone https://github.com/your-username/nutrition-paradox.git
 cd nutrition-paradox
 ```
-2️⃣ Install Required Packages
+**2️⃣ Install Required Packages**
+
 `pip install -r requirements.txt`
 
 Or manually:
 
 `pip install streamlit pandas numpy plotly sqlalchemy mysql-connector-python pycountry requests`
-3️⃣ Configure MySQL
+
+**3️⃣ Configure MySQL**
 
 Make sure MySQL is running.
 
 Update your connection string in the script:
 
 `create_engine("mysql+mysqlconnector://root:your_password@localhost")`
-4️⃣ Run the Application
+
+**4️⃣ Run the Application**
+
 `streamlit run app.py`
+
 ### 📊 Dataset Setup
 
 This project uses live data from the WHO Global Health Observatory API.
